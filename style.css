@@ -1,0 +1,164 @@
+       /**! index.html CSS */
+      /*? Navbar Area css  */
+.bracket {
+  font-size: 20px;
+  margin: 0 20px;
+  color: #fff;
+}
+.logo{
+  width: 700px;
+  padding: 0;
+  background: none;
+  border: none;
+  margin: 15px 0;
+}
+.navbar-nav {
+  margin-right: 0;
+  padding-right: 0;
+}
+.nav-bg {
+  background-color: rgba(99, 98, 98, 0.377);
+}
+.nav-text {
+  width: 100%;
+}
+.bg-img {
+  background-image: url(img/header.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+.nav-item a {
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.nav-item a:hover {
+  color: rgb(82, 152, 209)!important;
+}
+.navbar-toggler{
+  color: aqua;
+  border: 1px solid aqua;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 992px) {
+  .bracket {
+    display: none;
+  }
+  .nav-item:hover {
+    background-color: black;
+  }
+  .navbar-toggler{
+    z-index: 999;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+  }
+  .position {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(82, 152, 209);;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 633px) {
+  logo {
+    width: 200px !important;
+  }
+}
+.img-space {
+  margin-top: 100px;
+}
+
+/*? Slogan CSS  */
+.nail-1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.say {
+  font-size: 40px;
+  color: #fff;
+}
+.slogan {
+  background-image: url(img/ust-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.rocket-icon {
+  font-size: 150px;
+}
+
+/*? Our Works CSS  */
+.study {
+  padding: 5px;
+  border: 0.5px solid transparent;
+}
+.study:hover {
+  border: 0.5px solid gray;
+  cursor: pointer;
+}
+.study img {
+  height: 150px;
+}
+
+/*? Footer CSS  */
+.footer {
+  background-color: rgba(82, 152, 209, 0.6);
+  height: 250px;
+  color: #5a5d5e;
+}
+.footer p {
+  font-size: 18px;
+}
+.footer-column {
+  height: 250px;
+}
+
+/*! about.html CSS */
+.pages-logo {
+  height: 200px;
+}
+.logo-height {
+  height: calc(50vh - 100px);
+}
+.pages-header {
+  color: aqua;
+}
+.img-pages {
+  background-image: url(img/ust-bg-2.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+/*! portfolio.html CSS  */
+.corporate{
+    height: 150px;
+}
+/*! blog.html CSS  */
+.continue a:hover{
+    color: black !important;
+}
